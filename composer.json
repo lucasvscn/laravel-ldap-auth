@@ -1,5 +1,5 @@
 {
-    "name": "lsv/laravel-ldap-auth",
+    "name": "lucasvscn/laravel-ldap-auth",
     "description": "LDAP driver for Laravel auth.",
     "keywords": ["ldap", "laravel", "auth"],
     "license": "MIT",
