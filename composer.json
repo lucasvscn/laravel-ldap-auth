@@ -1,0 +1,29 @@
+{
+    "name": "lsv/laravel-ldap-auth",
+    "description": "LDAP driver for Laravel auth.",
+    "keywords": ["ldap", "laravel", "auth"],
+    "license": "MIT",
+    "homepage": "https://github.com/lucasvscn/laravel-ldap-auth",
+    "support": {
+        "issues": "https://github.com/lucasvscn/laravel-ldap-auth/issues",
+        "source": "https://github.com/lucasvscn/laravel-ldap-auth"
+    },
+    "authors": [
+        {
+            "name": "Lucas Vasconcelos",
+            "email": "lucas@vscn.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "LSV\\LDAP\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6.4",
+        "ext-ldap": "*",
+        "illuminate/support": "^5.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
