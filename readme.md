@@ -8,7 +8,7 @@ Allows to connect into a LDAPv3.0 server to check user's credentials.
 
 Add service provider to file `config/app.php`
 
-    LSV\LDAP\ServiceProvider::class,
+    LucasVscn\LDAP\ServiceProvider::class,
 
 Change your `config/auth.php` to work with 'ldap' driver:
 

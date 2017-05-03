@@ -1,12 +1,12 @@
 <?php
 
-namespace LSV\LDAP;
+namespace LucasVscn\LDAP;
 
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 /**
  * @author   Lucas Vasconcelos <lucas@vscn.co>
- * @package  LSV\LDAP
+ * @package  LucasVscn\LDAP
  */
 class ServiceProvider extends LaravelServiceProvider
 {

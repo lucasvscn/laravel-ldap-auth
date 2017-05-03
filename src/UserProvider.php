@@ -1,6 +1,6 @@
 <?php
 
-namespace LSV\LDAP;
+namespace LucasVscn\LDAP;
 
 use Illuminate\Support\Str;
 use Illuminate\Contracts\Auth\Authenticatable;
@@ -9,7 +9,7 @@ use Illuminate\Contracts\Auth\UserProvider as UserProviderContract;
 
 /**
  * @author  Lucas Vasconcelos <lucas@vscn.co>
- * @package LSV\LDAP
+ * @package LucasVscn\LDAP
  */
 class UserProvider implements UserProviderContract
 {
